@@ -11,6 +11,20 @@ This dataset contains transaction data from a cafe that has several issues:
 - Some incorrect or placeholder values (e.g., "ERROR" in "Total Spent," "UNKNOWN" in "Location" and "Payment Method").
 - "Quantity," "Price Per Unit," and "Total Spent" are stored as text and might need conversion to numeric.
 - Dates are in inconsistent formats.
+
+#### Menu Items
+The dataset includes the following menu items with their respective price ranges:
+| Item      | Price ($) |
+|-----------|----------|
+| Coffee    | 2.00     |
+| Tea       | 1.50     |
+| Sandwich  | 4.00     |
+| Salad     | 5.00     |
+| Cake      | 3.00     |
+| Cookie    | 1.00     |
+| Smoothie  | 4.00     |
+| Juice     | 3.00     |
+
 ### Setup
 1.) Download necessary packages on R
 
