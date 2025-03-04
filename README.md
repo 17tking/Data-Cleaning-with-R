@@ -7,7 +7,7 @@
 ![messy_data](messy_data_example.png)
 
 ## AFTER:
-*insert dashboard*
+![cafe_dashboard](Cafe_Sales_dashboard.png)
 
 
 ## Scenario:
