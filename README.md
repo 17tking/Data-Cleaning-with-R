@@ -1,3 +1,4 @@
+![Brooms](https://media.istockphoto.com/id/1028718088/vector/mop-and-broom-for-cleaning.jpg?s=612x612&w=0&k=20&c=i-cO6Gl1XsX-09fBvLCUsrlNtIaHMzgHirSITadQd7o=)
 # Cafe Sales Cleanup and Analysis
 - **WHAT?** My goal is to take a messy Cafe Sales dataset and prepare it for EDA and visualization methods to answer key questions that can help drive marketing and business decisions.
 - **HOW?** Using **R's** powerful, quick data cleaning packages and syntax.
