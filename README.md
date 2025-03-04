@@ -2,7 +2,13 @@
 - **WHAT?** My goal is to take a messy Cafe Sales dataset and prepare it for EDA and visualization methods to answer key questions that can help drive marketing and business decisions.
 - **HOW?** Using **R's** powerful, quick data cleaning packages and syntax.
 - **WHY?** Not only do I want to showcase my skills in data cleaning and wrangling, but I also want viewers, who are looking to learn the ins and outs of R for data cleaning, to understand how the syntax is used.
-![broom](https://media.istockphoto.com/id/1028718088/vector/mop-and-broom-for-cleaning.jpg?s=612x612&w=0&k=20&c=i-cO6Gl1XsX-09fBvLCUsrlNtIaHMzgHirSITadQd7o=)
+
+## BEFORE:
+![messy_data](Data_Analysis_Projects\R\2025_03_01_Data_Cleaning_ProjectR)
+
+## AFTER:
+*insert dashboard*
+
 
 ## Scenario:
 #### Data Source: [cafe-sales-dirty-data-for-cleaning-training](https://www.kaggle.com/datasets/ahmedmohamed2003/cafe-sales-dirty-data-for-cleaning-training) 
