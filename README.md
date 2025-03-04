@@ -17,6 +17,7 @@ This dataset contains transaction data from a cafe that has several issues:
 - Some incorrect or placeholder values (e.g., "ERROR" in "Total Spent," "UNKNOWN" in "Location" and "Payment Method").
 - "Quantity," "Price Per Unit," and "Total Spent" are stored as text and might need conversion to numeric.
 - Dates are in inconsistent formats.
+- Numerical data may be calculated incorrectly
 
 #### Menu Items
 The dataset includes the following menu items with their respective price ranges:
@@ -31,8 +32,13 @@ The dataset includes the following menu items with their respective price ranges
 | Smoothie  | 4.00     |
 | Juice     | 3.00     |
 
-### Setup
-1.) Download necessary packages on R
+
+## Examples of Code
+
+
+## Video Walkthrough
+Check out my step-by-step cleaning process in this walkthrough where I will walk you through the code and its meanings! (Coming Soon)
+[Link to Video]()
 
 
 ## Post-cleaning Goals:
@@ -42,8 +48,12 @@ The dataset includes the following menu items with their respective price ranges
   - **Popular methods**: Are customers buying more in-store, takeaway, or elsewhere?
   - **Payment trends**: What is the most common payment method? Should we push digital wallets more?
   - **Sales over time**: Are there seasonal trends? Do weekends perform better than weekdays?
+  - **Spending**: How much are customers spending per order?
  
   ### Visualization
   - Create dashboards showing key trends and insights
   - Use interactive visuals for item popularity, payment methods, and revenue trends
-    (insert dashboard here) !!!
+
+## Skills Used
+- Data cleaning
+- 
