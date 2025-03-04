@@ -4,7 +4,7 @@
 - **WHY?** Not only do I want to showcase my skills in data cleaning and wrangling, but I also want viewers, who are looking to learn the ins and outs of R for data cleaning, to understand how the syntax is used.
 
 ## BEFORE:
-![messy_data](Data_Analysis_Projects\R\2025_03_01_Data_Cleaning_ProjectR)
+![messy_data](messy_data_example.png)
 
 ## AFTER:
 *insert dashboard*
