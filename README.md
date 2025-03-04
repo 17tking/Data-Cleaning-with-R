@@ -33,11 +33,41 @@ The dataset includes the following menu items with their respective price ranges
 | Juice     | 3.00     |
 
 
-## Examples of Code
+## Code Examples/Preview
+- [Link to ALL code](https://github.com/17tking/Data-Cleaning-with-R/blob/main/R/2025_03_01_Data_Cleaning_ProjectR/Cafe_Cleanup.R)
+```{r Packages used}
+# Loading Required Packages
+library(tidyverse)
+library(openxlsx)
+```
+
+```{Reading in CSV data and defining NA values}
+# Reading in CSV data from directory and defining missing values
+cafe_data <- read_csv("R/2025_03_01_Data_Cleaning_ProjectR/dirty_cafe_sales.csv",
+                      na = c("", "ERROR", "UNKNOWN"))
+
+view(cafe_data) 
+```
+
+```{r}
+# Calculate % Missing per Column
+missing_proportion <- cafe_data %>%
+  summarise(across(everything(), ~ mean(is.na(.)) * 100))
+print(missing_proportion)
+
+# Calculate Overall % Missing
+overall_missing_proportion <- mean(is.na(cafe_data)) * 100
+print(overall_missing_proportion)
+```
+
+```{r}
+# Save Cleaned Cafe Data in Directory as Excel Workbook
+write.xlsx(cafe_data_cleaned, "R/2025_03_01_Data_Cleaning_ProjectR/cafe_sales_cleaned.xlsx")
+```
 
 
 ## Video Walkthrough
-Check out my step-by-step cleaning process in this walkthrough where I will walk you through the code and its meanings! (Coming Soon)
+Check out my step-by-step cleaning process in this walkthrough! (Coming Soon)
 [Link to Video]()
 
 
@@ -54,6 +84,10 @@ Check out my step-by-step cleaning process in this walkthrough where I will walk
   - Create dashboards showing key trends and insights
   - Use interactive visuals for item popularity, payment methods, and revenue trends
 
-## Skills Used
+## Relevant Skills Used
+- R (tidyverse)
 - Data cleaning
-- 
+- Dashboard Visualization
+- Exploratory Data Analysis
+- Critical Thinking
+- Problem Solving
