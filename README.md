@@ -69,7 +69,9 @@ write.xlsx(cafe_data_cleaned, "R/2025_03_01_Data_Cleaning_ProjectR/cafe_sales_cl
 
 ## Video Walkthrough
 Check out my step-by-step cleaning process in this walkthrough! (Coming Soon)
-- [Link to Video]()
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/X7EqOOTmcFc/0.jpg)](https://www.youtube.com/watch?v=X7EqOOTmcFc)
+
+[![](https://utfs.io/f/nGnSqDveMsqxb0np5JmPhUTBofreSztZWg6iQDXO9Jvq1GVc)](https://www.youtube.com/watch?v=X7EqOOTmcFc)
 
 
 ## Post-cleaning Goals:
