@@ -4,10 +4,10 @@
 - **HOW?** Using **R's** powerful, quick data cleaning packages and syntax.
 - **WHY?** Not only do I want to showcase my skills in data cleaning and wrangling, but I also want viewers, who are looking to learn the ins and outs of R for data cleaning, to understand how the syntax is used.
 
-## BEFORE:
+## BEFORE: 13% of Data Missing
 ![messy_data](messy_data_example.png)
 
-## AFTER:
+## AFTER: 1.4% of Data Missing
 ![cafe_dashboard](Cafe_Sales_dashboard.png)
 
 
